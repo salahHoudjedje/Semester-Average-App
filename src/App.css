@@ -1,0 +1,26 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* General edditing */
+body {
+  font-family: sans-serif, "Poppins";
+  background-color: #D3F1DF;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* General Layout (Flexbox) */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}

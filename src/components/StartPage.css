@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.start-page {
+    background-color: #d9f0e6; /* Soft green background */
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Illustration styling */
+.illustration {
+    width: 250px; /* Adjust the size to fit the screen */
+    margin-bottom: 20px;
+}
+
+/* Title styling */
+.title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000; /* Dark green-gray text */
+    margin-bottom: 20px;
+}
+
+/* Dropdown styling */
+.language-dropdown {
+    width: 140px;
+    padding: 15px;
+    font-size: 16px;
+    color: #555; /* Text color */
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    appearance: none; /* Remove default dropdown arrow */
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .15);
+    outline: none;
+}
+
+/* Hover effect for the dropdown */
+.language-dropdown:hover {
+    border-color: #28a745;
+}
+
+.get-started-button {
+    transition: all 0.5s ease;
+    width: 140px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.15);
+    border: none;
+    appearance: none;
+}
+
+.get-started-button:hover {
+    background-color: #638c6d;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Container to group dropdown and icon */
+.dropdown-container {
+    position: relative; /* Position relative for absolute positioning of the icon */
+    display: inline-block;
+    width: 140px; /* Same width as the dropdown */
+}
+
+/* Adjust icon placement inside dropdown */
+.dropdown-icon {
+    position: absolute;
+    right: 15px; /* Adjust space from the right */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent icon from blocking dropdown clicks */
+    color: #666;
+    font-size: 16px; /* Adjust size to fit design */
+}
+
+/* Responsive styling */
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .illustration {
+        width: 200px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .language-dropdown {
+        width: 200px;
+        font-size: 14px;
+    }
+    .get-started-button {
+        width: 200px;
+        padding: 10px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .illustration {
+        width: 220px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .language-dropdown {
+        width: 180px;
+        font-size: 15px;
+    }
+    .get-started-button {
+        width: 180px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .illustration {
+        width: 250px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .language-dropdown {
+        width: 140px;
+    }
+    .get-started-button {
+        width: 140px;
+    }
+}
