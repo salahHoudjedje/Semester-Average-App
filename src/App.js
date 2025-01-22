@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Semester-Average-App"> {/* Set the basename */}
       <Routes>
         {/* Route for StartPage */}
         <Route path="/" element={<StartPage />} />
