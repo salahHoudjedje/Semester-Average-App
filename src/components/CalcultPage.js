@@ -84,11 +84,11 @@ const CalcultPage = () => {
       <table className="models-table">
         <thead>
           <tr>
-            <th>Model Name</th>
-            <th>Coefficient</th>
-            <th>TD Points</th>
-            <th>Course Points</th>
-            <th>Average</th>
+            <th>المقياس</th>
+            <th>المعامل</th>
+            <th>TD</th>
+            <th>Cour</th>
+            <th>معدل المقياس</th>
           </tr>
         </thead>
         <tbody>

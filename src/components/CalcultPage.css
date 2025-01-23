@@ -87,8 +87,58 @@
 
 /* Responsive styling */
 
+/* Small phones */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .models-table {
+    max-width: 390px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .models-table tr th {
+    font-size: 12px;
+  }
+  .models-table tr th:nth-child(1) {
+    width: 120px;
+  }
+  .models-table tr th:nth-child(2) {
+    width: 50px;
+  }
+  .models-table tr th:nth-child(3) {
+    width: 50px;
+  }
+  .models-table tr th:nth-child(4) {
+    width: 50px;
+  }
+  .models-table tr th:nth-child(5) {
+    width: 120px;
+  }
+
+  .models-table input {
+    width: 30px;
+    font-size: 12px;
+  }
+
+  .calculate-button,
+  .reset-button {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+  .note {
+    margin-top: 10px;
+    border: solid 2px #218838;
+    border-radius: 15px;
+  }
+}
+
+
 /* Smartphone */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .models-table {
       font-size: 12px;
   }
@@ -107,10 +157,11 @@
   .note p {
       font-size: 12px;
   }
-}
+} */
+
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
   .models-table {
       font-size: 14px;
   }
@@ -126,10 +177,10 @@
       font-size: 15px;
       padding: 12px 18px;
   }
-}
+} */
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .models-table {
       font-size: 16px;
   }
@@ -144,4 +195,4 @@
   .reset-button {
       font-size: 16px;
   }
-}
+} */
