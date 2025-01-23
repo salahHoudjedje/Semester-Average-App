@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Semester-Average-App/static/css/main.9c2c462a.css",
+    "main.css": "/Semester-Average-App/static/css/main.22f79185.css",
     "main.js": "/Semester-Average-App/static/js/main.cbf8e70a.js",
     "static/media/Thekid.png": "/Semester-Average-App/static/media/Thekid.78ab44aca01157761bbb.png",
     "index.html": "/Semester-Average-App/index.html",
-    "main.9c2c462a.css.map": "/Semester-Average-App/static/css/main.9c2c462a.css.map",
+    "main.22f79185.css.map": "/Semester-Average-App/static/css/main.22f79185.css.map",
     "main.cbf8e70a.js.map": "/Semester-Average-App/static/js/main.cbf8e70a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2c462a.css",
+    "static/css/main.22f79185.css",
     "static/js/main.cbf8e70a.js"
   ]
 }
